@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.section1 header .container {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  margin-top: 56px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.section1 header .container .container-left .text {
+  color: #0a2640;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.25px;
+}
+.section1 header .container .container-right {
+  display: flex;
+}
+.section1 header .container .container-right ul {
+  display: flex;
+  align-items: center;
+}
+.section1 header .container .container-right ul li {
+  list-style: none;
+}
+.section1 header .container .container-right ul li a {
+  text-decoration: none;
+  color: #0a2640;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.section1 header .container .container-right .button {
+  padding: 8px 40px;
+  border: 2px solid #0a2640;
+  border-radius: 24px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.section1 header .container .container-right .button:hover {
+  background-color: black;
+  color: white;
+}
+.section1 main .container {
+  max-width: 1200px;
+  margin-top: 63px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+}
+.section1 main .container .container-left {
+  max-width: 600px;
+}
+.section1 main .container .container-left .title {
+  margin-top: 67px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+}
+.section1 main .container .container-left .text {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+}
+.section1 main .container .container-left .button {
+  margin-top: 49px;
+}
+.section1 main .container .container-left .button .button1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px 56px;
+  background: #0a2640;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  cursor: pointer;
+}
+.section1 main .container .container-left .button .button2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #0a2640;
+  padding: 16px 56px;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.section1 main .container .container-right {
+  margin-left: 104px;
+  max-width: 100%;
+}
+.section1 main .container .container-right .container-right_bottom {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 footer .container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-left: 100px;
+  margin-top: 95px;
+  margin-bottom: 87px;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  background: #0a2640;
+}
+.section2 .container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 .container .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+  margin-top: 82px;
+}
+.section2 .container .text {
+  max-width: 842px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+  margin-top: 12px;
+  text-align: center;
+}
+.section2 .container .child {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section2 .container .child .child-child1 {
+  margin-right: 50px;
+  margin-bottom: 99px;
+}
+.section2 .container .child .child-child1 .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+.section2 .container .child .child-child1 .child-arrow {
+  color: white;
+}
+.section2 .container .child .child-child1 .child-arrow .arrow {
+  color: #f1f1f1;
+  background-color: red;
+  font-size: 30px;
+}
